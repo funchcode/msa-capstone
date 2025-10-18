@@ -1,0 +1,37 @@
+services/order/HELP.md
+services/order/.gradle
+services/order/build/
+services/order/!gradle/wrapper/gradle-wrapper.jar
+services/order/!**/src/main/**/build/
+services/order/!**/src/test/**/build/
+
+### STS ###
+services/order/.apt_generated
+services/order/.classpath
+services/order/.factorypath
+services/order/.project
+services/order/.settings
+services/order/.springBeans
+services/order/.sts4-cache
+services/order/bin/
+services/order/!**/src/main/**/bin/
+services/order/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+services/order/.idea
+services/order/*.iws
+services/order/*.iml
+services/order/*.ipr
+services/order/out/
+services/order/!**/src/main/**/out/
+services/order/!**/src/test/**/out/
+
+### NetBeans ###
+services/order//nbproject/private/
+services/order//nbbuild/
+services/order//dist/
+services/order//nbdist/
+services/order//.nb-gradle/
+
+### VS Code ###
+services/order/.vscode/
