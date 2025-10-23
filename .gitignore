@@ -35,3 +35,14 @@ services/order//.nb-gradle/
 
 ### VS Code ###
 services/order/.vscode/
+
+# binaries & local db
+services/inventory/bin/
+services/inventory/*.db
+services/inventory/*.sqlite
+services/inventory/*.sqlite3
+services/inventory/*.DS_Store
+
+# IDE
+services/inventory/.idea/
+services/inventory/.vscode/
