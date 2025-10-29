@@ -1,6 +1,7 @@
 package db
 
 import (
+	"gin-quickstart/internal/model"
 	"time"
 
 	"gorm.io/driver/mysql"
@@ -31,6 +32,11 @@ func Open(cfg Config) (*gorm.DB, error) {
 	}
 	if cfg.MaxLife > 0 {
 		sqlDB.SetConnMaxLifetime(cfg.MaxLife)
+	}
+
+	err = db.AutoMigrate(&model.Reservation{}, &model.ReservationItem{}, &model.StockKeepingUnit{})
+	if err != nil {
+		return nil, err
 	}
 
 	return db, nil

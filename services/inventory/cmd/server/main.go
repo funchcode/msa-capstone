@@ -8,7 +8,7 @@ import (
 
 func main() {
 	rdb, err := db.Open(db.Config{
-		DSN: "user:password@tcp(host:3306)/inventory?parseTime=true&loc=Asia%2FSeoul&charset=utf8mb4&collation=utf8mb4_0900_ai_ci",
+		DSN: "root:root@tcp(127.0.0.1:3306)/inventory?parseTime=true",
 	})
 	if err != nil {
 		log.Fatal(err)
