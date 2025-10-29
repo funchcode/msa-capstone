@@ -46,3 +46,44 @@ services/inventory/*.DS_Store
 # IDE
 services/inventory/.idea/
 services/inventory/.vscode/
+
+services/payment/HELP.md
+services/payment/.gradle
+services/payment/build/
+services/payment/!gradle/wrapper/gradle-wrapper.jar
+services/payment/!**/src/main/**/build/
+services/payment/!**/src/test/**/build/
+
+### STS ###
+services/payment/.apt_generated
+services/payment/.classpath
+services/payment/.factorypath
+services/payment/.project
+services/payment/.settings
+services/payment/.springBeans
+services/payment/.sts4-cache
+services/payment/bin/
+services/payment/!**/src/main/**/bin/
+services/payment/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+services/payment/.idea
+services/payment/*.iws
+services/payment/*.iml
+services/payment/*.ipr
+services/payment/out/
+services/payment/!**/src/main/**/out/
+services/payment/!**/src/test/**/out/
+
+### NetBeans ###
+services/payment//nbproject/private/
+services/payment//nbbuild/
+services/payment//dist/
+services/payment//nbdist/
+services/payment//.nb-gradle/
+
+### VS Code ###
+services/payment/.vscode/
+
+### Kotlin ###
+services/payment/.kotlin

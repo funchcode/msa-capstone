@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: payment
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/payment
+    username: root
+    password: root
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    root: INFO
+    com.example.payment: DEBUG
