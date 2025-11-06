@@ -34,4 +34,12 @@ public class Order {
         return o;
     }
 
+    public void doConfirm() {
+        this.status = "CONFIRMED";
+    }
+
+    public void doCancel() {
+        this.status = "CANCELED";
+    }
+
 }
